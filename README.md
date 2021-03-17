@@ -10,9 +10,13 @@
 3. 校正风云4a标准数据，使得其与葵花8号云分类产品对齐，用于训练，最后对风云4号L1产品进行测试
 
 ### 模型
-
-
+本研究复现了一些经典的语义分割模型，并做出改进，使其适用于云分类（仅提供了使用的部分模型，最优模型论文发表后公开）。同时，模型中使用了很多Tricks，以提高性能。
 #### 注：模型同样适用于cityscapes/coco/pascal等语义分割数据集
+
+### 实验环境
+pytorch-1.6.0
+gpu: v100 32G × 2
+centos7后台训练：nohup python train.py > run.log 2>&1 &
 
 ![image](https://github.com/Kelvin-001/Semantic-segmentation/blob/main/%E4%BA%91%E5%88%86%E7%B1%BB%E6%B5%81%E7%A8%8B.PNG)
 
