@@ -15,7 +15,9 @@
 
 ### 实验环境
 pytorch-1.6.0
+
 gpu: v100 32G × 2
+
 centos7后台训练：nohup python train.py > run.log 2>&1 &
 
 ![image](https://github.com/Kelvin-001/Semantic-segmentation/blob/main/%E4%BA%91%E5%88%86%E7%B1%BB%E6%B5%81%E7%A8%8B.PNG)
